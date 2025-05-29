@@ -1,0 +1,524 @@
+{
+  "questions": [
+    {
+      "question": "Qual é a definição de gerenciamento de rede segundo T. Saydam & T. Magedanz, e quais elementos ele visa integrar e coordenar?",
+      "answerOptions": [
+        {
+          "text": "A disponibilização, integração e coordenação de elementos de hardware e software para monitorar e controlar recursos da rede, visando satisfazer exigências operacionais a um custo razoável.",
+          "rationale": "Esta definição abrange os principais aspectos da gerência de redes, incluindo a integração de elementos e o objetivo de atender requisitos operacionais e de custo.",
+          "isCorrect": true
+        },
+        {
+          "text": "O processo de instalar e configurar novos dispositivos em uma rede, focando apenas na expansão da infraestrutura.",
+          "rationale": "A instalação e configuração são parte do gerenciamento, mas a definição completa envolve mais do que apenas a expansão.",
+          "isCorrect": false
+        },
+        {
+          "text": "A monitoração exclusiva do tráfego de rede para identificar gargalos de desempenho, sem se preocupar com a configuração dos dispositivos.",
+          "rationale": "A monitoração de desempenho é uma função importante, mas o gerenciamento de redes é mais amplo, incluindo configuração e outros aspectos.",
+          "isCorrect": false
+        },
+        {
+          "text": "A aplicação de políticas de segurança para proteger a rede contra acessos não autorizados, sendo esta sua única função.",
+          "rationale": "A segurança é uma área crucial do gerenciamento de redes, mas não é a única função; a definição completa é mais abrangente.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense nos componentes que precisam trabalhar juntos e no objetivo final do gerenciamento."
+    },
+    {
+      "question": "Quais são as cinco áreas funcionais do gerenciamento de redes definidas pelo modelo OSI, conhecidas pelo acrônimo FCAPS?",
+      "answerOptions": [
+        {
+          "text": "Falha, Configuração, Contabilização, Desempenho e Segurança.",
+          "rationale": "Este conjunto representa corretamente as cinco áreas funcionais do modelo FCAPS.",
+          "isCorrect": true
+        },
+        {
+          "text": "Flexibilidade, Capacidade, Acessibilidade, Performance e Suporte.",
+          "rationale": "Embora alguns termos sejam relevantes para redes, este não é o acrônimo FCAPS do modelo OSI.",
+          "isCorrect": false
+        },
+        {
+          "text": "Firewall, Cabeamento, Autenticação, Protocolos e Software.",
+          "rationale": "Estes são elementos ou conceitos relacionados a redes, mas não correspondem às áreas funcionais do FCAPS.",
+          "isCorrect": false
+        },
+        {
+          "text": "Finanças, Custos, Aquisições, Pessoal e Serviços.",
+          "rationale": "Estes termos estão mais relacionados à gestão de negócios ou projetos do que às áreas funcionais técnicas do gerenciamento de redes OSI.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Lembre-se do acrônimo e o que cada letra representa no contexto da gerência."
+    },
+    {
+      "question": "No contexto da monitoração de redes, qual a diferença fundamental entre 'Polling' e 'Event Reporting'?",
+      "answerOptions": [
+        {
+          "text": "Polling é uma consulta ativa do gerente ao agente, enquanto Event Reporting é o agente informando proativamente o gerente sobre ocorrências.",
+          "rationale": "Esta opção descreve corretamente a natureza ativa do polling (gerente inicia) e a natureza proativa do event reporting (agente inicia).",
+          "isCorrect": true
+        },
+        {
+          "text": "Polling é usado apenas para coletar dados estatísticos, e Event Reporting para falhas críticas.",
+          "rationale": "Polling pode coletar diversos tipos de dados, e Event Reporting pode ser para vários tipos de eventos, não apenas falhas críticas.",
+          "isCorrect": false
+        },
+        {
+          "text": "Polling gera menos tráfego de rede, pois o agente só responde quando há algo novo.",
+          "rationale": "Polling pode gerar mais tráfego, pois o gerente consulta periodicamente, mesmo que não haja mudanças; Event Reporting pode ser mais eficiente para mudanças infrequentes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Event Reporting é uma técnica mais antiga, substituída pelo Polling em redes modernas.",
+          "rationale": "Ambas as técnicas são relevantes e podem ser usadas em conjunto, dependendo da necessidade e da arquitetura de gerenciamento.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Considere quem inicia a comunicação em cada uma dessas técnicas de coleta de informações."
+    },
+    {
+      "question": "O que é um Network Management System (NMS)?",
+      "answerOptions": [
+        {
+          "text": "Um conjunto de ferramentas para monitoração e controle de uma rede, projetado para ver a rede como uma arquitetura unificada.",
+          "rationale": "Esta definição captura a essência de um NMS como um sistema integrado para gerenciar a rede de forma holística.",
+          "isCorrect": true
+        },
+        {
+          "text": "Um único software responsável por detectar vírus e malwares na rede.",
+          "rationale": "A detecção de vírus é uma função de segurança, que pode ser parte de um NMS, mas um NMS é muito mais abrangente.",
+          "isCorrect": false
+        },
+        {
+          "text": "Um dispositivo de hardware que controla o fluxo de dados entre diferentes segmentos da rede, como um roteador avançado.",
+          "rationale": "Roteadores são componentes da rede gerenciados por um NMS, mas o NMS em si é o sistema de gerenciamento, não um dispositivo de encaminhamento.",
+          "isCorrect": false
+        },
+        {
+          "text": "Um protocolo de comunicação usado exclusivamente para a troca de informações de configuração entre servidores.",
+          "rationale": "Protocolos são usados por NMSs (como o SNMP), mas o NMS é o sistema completo, não apenas um protocolo.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense em um sistema centralizado ou distribuído que oferece uma visão geral e controle sobre a rede."
+    },
+    {
+      "question": "Qual é a função principal de uma Management Information Base (MIB) no contexto do gerenciamento de redes?",
+      "answerOptions": [
+        {
+          "text": "Armazenar informações sobre os objetos gerenciados na rede, representando seus atributos e estados.",
+          "rationale": "A MIB é uma base de dados que estrutura e armazena as informações dos dispositivos e recursos gerenciáveis.",
+          "isCorrect": true
+        },
+        {
+          "text": "Executar comandos de configuração diretamente nos dispositivos de rede.",
+          "rationale": "A MIB contém as informações; os comandos para alterá-las são enviados pelo gerente e processados pelo agente, que interage com a MIB.",
+          "isCorrect": false
+        },
+        {
+          "text": "Analisar o tráfego de rede em tempo real para detectar anomalias de segurança.",
+          "rationale": "A análise de tráfego pode usar dados da MIB, mas a MIB em si é o repositório de informações, não a ferramenta de análise.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gerar relatórios gráficos sobre o desempenho da rede para os administradores.",
+          "rationale": "Relatórios são gerados por aplicações de gerenciamento que utilizam os dados armazenados na MIB.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Considere onde as informações sobre os dispositivos gerenciados são estruturadas e armazenadas."
+    },
+    {
+      "question": "No modelo de gerenciamento com gerente e agente, qual entidade é responsável por coletar estatísticas e responder a comandos do gerente?",
+      "answerOptions": [
+        {
+          "text": "A Entidade de Gerenciamento de Rede (NME) ou Agente.",
+          "rationale": "O agente (NME) reside no dispositivo gerenciado, coleta dados e executa ações solicitadas pelo gerente.",
+          "isCorrect": true
+        },
+        {
+          "text": "A Aplicação de Gerência de Rede (NMA) ou Gerente.",
+          "rationale": "O gerente (NMA) envia os comandos e recebe as informações, mas a coleta local é feita pelo agente.",
+          "isCorrect": false
+        },
+        {
+          "text": "O Network Operations Center (NOC).",
+          "rationale": "O NOC é o local físico ou lógico onde o gerenciamento é centralizado, utilizando gerentes e agentes, mas não é a entidade que coleta diretamente no dispositivo.",
+          "isCorrect": false
+        },
+        {
+          "text": "O protocolo SNMP.",
+          "rationale": "SNMP é o protocolo que permite a comunicação entre gerente e agente, mas não é a entidade em si.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense em quem está no dispositivo gerenciado e quem está no sistema de gerenciamento central."
+    },
+    {
+      "question": "Qual das seguintes opções MELHOR descreve a função de um 'proxy' em arquiteturas de gerenciamento de rede?",
+      "answerOptions": [
+        {
+          "text": "Atuar como um intermediário, traduzindo pedidos e respostas entre gerentes e sistemas que não suportam diretamente os padrões de gerência.",
+          "rationale": "Esta é a principal função de um proxy: permitir o gerenciamento de dispositivos que, de outra forma, seriam incompatíveis.",
+          "isCorrect": true
+        },
+        {
+          "text": "Filtrar o tráfego de rede para bloquear acessos maliciosos, similar a um firewall.",
+          "rationale": "Embora a segurança seja importante, a função de proxy no gerenciamento de redes está relacionada à compatibilidade de protocolos e padrões.",
+          "isCorrect": false
+        },
+        {
+          "text": "Armazenar em cache dados frequentemente acessados para acelerar a resposta da rede.",
+          "rationale": "Este descreve um proxy de cache web, que tem uma função diferente do proxy no contexto de gerenciamento de dispositivos de rede.",
+          "isCorrect": false
+        },
+        {
+          "text": "Distribuir a carga de processamento de gerenciamento entre múltiplos servidores.",
+          "rationale": "Balanceamento de carga é uma técnica de otimização, mas não é a função primária de um proxy de gerenciamento.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Considere cenários onde dispositivos mais antigos ou com protocolos proprietários precisam ser integrados a um sistema de gerenciamento padrão."
+    },
+    {
+      "question": "Qual é o principal objetivo do Gerenciamento de Falhas?",
+      "answerOptions": [
+        {
+          "text": "Determinar rapidamente a localização da falha, isolá-la, reconfigurar a rede para minimizar o impacto e reparar o componente defeituoso.",
+          "rationale": "Esta opção descreve de forma completa o ciclo de vida do tratamento de uma falha na rede.",
+          "isCorrect": true
+        },
+        {
+          "text": "Prevenir todas as falhas possíveis na rede através de manutenção proativa.",
+          "rationale": "A prevenção é ideal, mas o gerenciamento de falhas lida primariamente com a detecção, diagnóstico e correção quando as falhas ocorrem.",
+          "isCorrect": false
+        },
+        {
+          "text": "Apenas registrar todas as falhas que ocorrem para análise estatística futura.",
+          "rationale": "O registro é importante, mas o objetivo principal é restaurar a funcionalidade da rede o mais rápido possível.",
+          "isCorrect": false
+        },
+        {
+          "text": "Atualizar o software dos dispositivos de rede para corrigir bugs que podem causar falhas.",
+          "rationale": "A atualização de software é uma tarefa de gerenciamento de configuração que pode prevenir falhas, mas o gerenciamento de falhas foca na resposta a falhas existentes.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense nas etapas necessárias desde a ocorrência de um problema até sua resolução e a minimização de seus efeitos."
+    },
+    {
+      "question": "Dentro do Gerenciamento de Configuração, qual das seguintes NÃO é uma função básica?",
+      "answerOptions": [
+        {
+          "text": "Monitorar continuamente a taxa de utilização dos enlaces de comunicação.",
+          "rationale": "A monitoração da taxa de utilização é uma função primária do Gerenciamento de Desempenho, não de Configuração.",
+          "isCorrect": true
+        },
+        {
+          "text": "Identificar quais dispositivos fazem parte da rede e suas configurações de hardware e software.",
+          "rationale": "O inventário e a identificação da configuração dos dispositivos são centrais para o Gerenciamento de Configuração.",
+          "isCorrect": false
+        },
+        {
+          "text": "Iniciar e encerrar as operações dos elementos gerenciados.",
+          "rationale": "O controle sobre o estado operacional dos dispositivos é uma função de configuração.",
+          "isCorrect": false
+        },
+        {
+          "text": "Alterar a configuração dos elementos gerenciados e gerar relatórios de configuração.",
+          "rationale": "Modificar parâmetros e documentar a configuração são atividades essenciais do Gerenciamento de Configuração.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "O Gerenciamento de Configuração lida com o inventário, o estado e as parametrizações dos dispositivos. Qual opção se desvia disso?"
+    },
+    {
+      "question": "Qual indicador de desempenho mede o percentual do tempo em que um sistema de rede está disponível para um usuário, e é calculado com base no MTBF e MTTR?",
+      "answerOptions": [
+        {
+          "text": "Disponibilidade (Availability).",
+          "rationale": "A disponibilidade é a métrica que relaciona o tempo médio entre falhas (MTBF) e o tempo médio para reparo (MTTR).",
+          "isCorrect": true
+        },
+        {
+          "text": "Tempo de Resposta (Response Time).",
+          "rationale": "O tempo de resposta mede o quão rápido o sistema reage a uma solicitação, não o percentual de tempo que está operacional.",
+          "isCorrect": false
+        },
+        {
+          "text": "Vazão (Throughput).",
+          "rationale": "A vazão mede a taxa de transferência de dados ou transações, não a disponibilidade do sistema.",
+          "isCorrect": false
+        },
+        {
+          "text": "Utilização (Utilization).",
+          "rationale": "A utilização mede o quanto um recurso está sendo usado em relação à sua capacidade total.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Este indicador é crucial para garantir que os serviços da rede estejam operacionais quando os usuários precisarem."
+    },
+    {
+      "question": "O que é um Network Operations Center (NOC)?",
+      "answerOptions": [
+        {
+          "text": "Um centro de monitoramento que coleta e armazena informações, identifica, previne e soluciona problemas e/ou falhas na rede.",
+          "rationale": "Esta descrição abrange as principais responsabilidades de um NOC na manutenção da saúde da rede.",
+          "isCorrect": true
+        },
+        {
+          "text": "Um software específico para configurar firewalls e sistemas de detecção de intrusão.",
+          "rationale": "Softwares de segurança são ferramentas usadas no contexto da gerência, mas um NOC é uma estrutura mais ampla, muitas vezes física, de operação.",
+          "isCorrect": false
+        },
+        {
+          "text": "O departamento responsável pelo desenvolvimento de novas tecnologias de rede em uma organização.",
+          "rationale": "O desenvolvimento de tecnologia é distinto da operação e monitoramento diário da rede, que é o foco do NOC.",
+          "isCorrect": false
+        },
+        {
+          "text": "Um padrão internacional para a interconexão de redes de diferentes fabricantes.",
+          "rationale": "Padrões de interconexão (como os do OSI ou TCP/IP) são fundamentais para a rede, mas o NOC é a entidade que gerencia a operação baseada nesses padrões.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense em um local centralizado (físico ou lógico) de onde a rede é supervisionada e controlada."
+    },
+    {
+      "question": "Por que o gerenciamento distribuído de rede se tornou uma abordagem importante?",
+      "answerOptions": [
+        {
+          "text": "Devido à proliferação de LANs departamentais, PCs potentes e a necessidade de controle local e otimização de aplicações distribuídas.",
+          "rationale": "Estes fatores impulsionaram a descentralização do gerenciamento para melhor escalabilidade e responsividade local.",
+          "isCorrect": true
+        },
+        {
+          "text": "Porque os mainframes se tornaram a principal plataforma para todas as aplicações de rede.",
+          "rationale": "O gerenciamento distribuído surgiu justamente com a migração de aplicações de mainframes para sistemas distribuídos e o aumento de LANs.",
+          "isCorrect": false
+        },
+        {
+          "text": "Para reduzir a necessidade de administradores de rede qualificados.",
+          "rationale": "O gerenciamento distribuído pode até demandar mais habilidades ou uma diferente organização da equipe, não necessariamente reduzindo a necessidade de qualificação.",
+          "isCorrect": false
+        },
+        {
+          "text": "Unicamente para aumentar a segurança, concentrando todos os dados de gerenciamento em um único ponto.",
+          "rationale": "A concentração de dados em um único ponto é característica do gerenciamento centralizado; o distribuído visa, entre outros, evitar pontos únicos de falha.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Considere a evolução das arquiteturas de rede e das aplicações."
+    },
+    {
+      "question": "Qual das seguintes é uma dificuldade comum na escolha e uso de indicadores de desempenho de rede?",
+      "answerOptions": [
+        {
+          "text": "Muitos indicadores são precisamente medidos, mas incorretamente interpretados.",
+          "rationale": "A correta interpretação dos dados coletados é tão crucial quanto a precisão da medição para uma tomada de decisão eficaz.",
+          "isCorrect": true
+        },
+        {
+          "text": "Existem poucos indicadores disponíveis, limitando as opções de monitoramento.",
+          "rationale": "Ao contrário, um dos desafios é a existência de muitos indicadores, o que pode dificultar a escolha dos mais relevantes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Todos os indicadores são universalmente suportados por todos os fabricantes de equipamentos.",
+          "rationale": "A falta de padronização e suporte universal de indicadores entre diferentes fabricantes é uma dificuldade conhecida.",
+          "isCorrect": false
+        },
+        {
+          "text": "O cálculo dos indicadores é sempre rápido e os resultados são fáceis de usar para controle.",
+          "rationale": "O cálculo pode ser demorado e os resultados podem ser complexos, exigindo análise para se tornarem acionáveis.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense nos desafios práticos ao tentar medir e entender o comportamento da rede."
+    },
+    {
+      "question": "No contexto do Gerenciamento de Desempenho, o que a 'Vazão (Throughput)' mede tipicamente?",
+      "answerOptions": [
+        {
+          "text": "A taxa na qual ocorrem os eventos orientados à aplicação, como número de transações por tempo.",
+          "rationale": "A vazão reflete a capacidade da rede de processar o trabalho útil do ponto de vista da aplicação ou do usuário.",
+          "isCorrect": true
+        },
+        {
+          "text": "O percentual de tempo em que um recurso de rede está ocupado.",
+          "rationale": "Isso descreve a 'Utilização', outro indicador de desempenho importante, mas distinto da vazão.",
+          "isCorrect": false
+        },
+        {
+          "text": "O tempo que leva para uma resposta aparecer no terminal do usuário após uma solicitação.",
+          "rationale": "Isso se refere ao 'Tempo de Resposta', que mede a latência percebida pelo usuário.",
+          "isCorrect": false
+        },
+        {
+          "text": "A quantidade de erros de transmissão ocorridos em um determinado período.",
+          "rationale": "Isso está relacionado à 'Ausência de Erros (Accuracy)', que foca na correção da entrega dos dados.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Este indicador está relacionado à quantidade de 'trabalho' que a rede consegue realizar em um intervalo."
+    },
+    {
+      "question": "Qual é um dos principais benefícios do 'Relato de Ocorrência de Evento' (Event Reporting) em comparação com o 'Polling' para monitorar objetos cujos estados mudam infrequentemente?",
+      "answerOptions": [
+        {
+          "text": "É mais eficiente, pois o agente só envia informação quando algo significativo ocorre, reduzindo o tráfego de gerência.",
+          "rationale": "Para objetos que raramente mudam, o polling constante geraria tráfego desnecessário; o event reporting é mais econômico nesses casos.",
+          "isCorrect": true
+        },
+        {
+          "text": "Garante que o gerente sempre tenha a informação mais atualizada, mesmo que não haja mudanças.",
+          "rationale": "O polling periódico pode dar uma visão mais constante, mas o event reporting só atualiza sobre mudanças, o que é eficiente para estados estáveis.",
+          "isCorrect": false
+        },
+        {
+          "text": "Requer menos capacidade de processamento no dispositivo agente.",
+          "rationale": "Ambos os métodos requerem processamento no agente; a diferença principal está no volume de comunicação e na proatividade.",
+          "isCorrect": false
+        },
+        {
+          "text": "É mais robusto em situações de congestionamento da rede, pois as mensagens de evento têm prioridade mais alta.",
+          "rationale": "A prioridade de mensagens depende da configuração da rede e dos protocolos, não sendo um benefício inerente ao event reporting sobre o polling em termos de robustez ao congestionamento.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense na eficiência da comunicação quando as mudanças de estado são raras."
+    },
+    {
+      "question": "O que o Gerenciamento de Contabilização visa controlar e registrar?",
+      "answerOptions": [
+        {
+          "text": "O uso dos recursos da rede pelos usuários, para fins de cobrança, planejamento ou para evitar abusos.",
+          "rationale": "A contabilização foca em quem está usando quais recursos, quando e por quanto tempo, permitindo diversas ações gerenciais.",
+          "isCorrect": true
+        },
+        {
+          "text": "A configuração de hardware e software de todos os dispositivos da rede.",
+          "rationale": "Isso é responsabilidade do Gerenciamento de Configuração.",
+          "isCorrect": false
+        },
+        {
+          "text": "O número de falhas e o tempo de reparo dos componentes da rede.",
+          "rationale": "Esses dados são primariamente do Gerenciamento de Falhas e Desempenho (disponibilidade).",
+          "isCorrect": false
+        },
+        {
+          "text": "A conformidade com as políticas de segurança e o controle de acesso à rede.",
+          "rationale": "Embora possa haver sobreposição, o foco principal do controle de acesso e políticas de segurança está no Gerenciamento de Segurança.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Esta área funcional está relacionada ao rastreamento do consumo de recursos."
+    },
+    {
+      "question": "Qual das seguintes informações é classificada como 'estática' no contexto da monitoração de rede?",
+      "answerOptions": [
+        {
+          "text": "A localização e o responsável por um determinado equipamento.",
+          "rationale": "Informações estáticas são aquelas que não mudam com frequência, como dados de inventário e identificação.",
+          "isCorrect": true
+        },
+        {
+          "text": "O estado atual de uma interface de rede (ativa/inativa).",
+          "rationale": "O estado de uma interface é uma informação dinâmica, pois pode mudar rapidamente.",
+          "isCorrect": false
+        },
+        {
+          "text": "A quantidade média de pacotes transmitidos por hora.",
+          "rationale": "Isso é uma informação estatística, derivada de informações dinâmicas ao longo do tempo.",
+          "isCorrect": false
+        },
+        {
+          "text": "Um alerta de falha gerado por um roteador.",
+          "rationale": "Alertas de falha são eventos, que são parte das informações dinâmicas da rede.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense em características de um dispositivo ou da rede que raramente se alteram."
+    },
+    {
+      "question": "Para que serve a geração de tráfego sintético no contexto da monitoração de desempenho?",
+      "answerOptions": [
+        {
+          "text": "Permite observar o comportamento da rede sob uma carga controlada e predefinida.",
+          "rationale": "O tráfego sintético ajuda a testar a rede em cenários específicos e a identificar limites de desempenho sem depender do tráfego real dos usuários.",
+          "isCorrect": true
+        },
+        {
+          "text": "Para congestionar a rede intencionalmente e testar os mecanismos de recuperação de falhas.",
+          "rationale": "Embora possa estressar a rede, o objetivo primário do tráfego sintético na monitoração de desempenho é a análise sob cargas controladas, não necessariamente causar falhas.",
+          "isCorrect": false
+        },
+        {
+          "text": "Substituir completamente a necessidade de monitorar o tráfego real dos usuários.",
+          "rationale": "O tráfego sintético é uma ferramenta complementar, não um substituto para a monitoração do tráfego real, que reflete o uso efetivo da rede.",
+          "isCorrect": false
+        },
+        {
+          "text": "Apenas para verificar a conectividade básica entre dois pontos da rede, como um comando ping.",
+          "rationale": "Testes de conectividade são mais simples; o tráfego sintético pode simular padrões de tráfego mais complexos e volumosos para análise de desempenho.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Considere como se pode testar a capacidade da rede de forma proativa e controlada."
+    },
+    {
+      "question": "Qual é um dos problemas relacionados ao isolamento de falhas em uma rede, especialmente com múltiplas tecnologias?",
+      "answerOptions": [
+        {
+          "text": "Uma única falha pode gerar diversos defeitos secundários, dificultando a identificação da causa raiz.",
+          "rationale": "O efeito cascata de uma falha pode mascarar sua origem, tornando o diagnóstico mais complexo.",
+          "isCorrect": true
+        },
+        {
+          "text": "As ferramentas de teste automatizado são sempre precisas e eliminam qualquer ambiguidade.",
+          "rationale": "A ausência ou limitação de ferramentas de teste automatizado é, na verdade, um desafio no isolamento de falhas.",
+          "isCorrect": false
+        },
+        {
+          "text": "Os procedimentos locais de recuperação de falhas sempre preservam todas as evidências necessárias para o diagnóstico.",
+          "rationale": "Procedimentos de recuperação podem, inadvertidamente, alterar o estado do sistema e destruir evidências importantes para o diagnóstico da causa raiz.",
+          "isCorrect": false
+        },
+        {
+          "text": "É sempre fácil observar todas as falhas localmente no dispositivo onde ocorrem.",
+          "rationale": "Algumas falhas, especialmente em sistemas distribuídos, podem não ser observáveis localmente ou podem ter sintomas ambíguos.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Pense na complexidade de encontrar a origem de um problema quando vários sintomas aparecem."
+    },
+    {
+      "question": "O protocolo SNMP (Simple Network Management Protocol) é fundamental para qual aspecto da gerência de redes?",
+      "answerOptions": [
+        {
+          "text": "A comunicação entre entidades gerentes e agentes para troca de informações de gerenciamento e comandos.",
+          "rationale": "SNMP define o formato das mensagens e as operações (como Get, Set, Trap) para que gerentes e agentes possam interagir.",
+          "isCorrect": true
+        },
+        {
+          "text": "A definição da estrutura hierárquica dos objetos gerenciados, conhecida como MIB.",
+          "rationale": "A MIB define a estrutura dos dados, enquanto o SNMP é o protocolo para acessar e manipular esses dados.",
+          "isCorrect": false
+        },
+        {
+          "text": "A criptografia de todo o tráfego da rede para garantir a confidencialidade dos dados dos usuários.",
+          "rationale": "SNMPv3 inclui recursos de segurança, mas o SNMP em si não é um protocolo de criptografia para dados de usuário; ele gerencia a rede.",
+          "isCorrect": false
+        },
+        {
+          "text": "O roteamento de pacotes através de diferentes redes interconectadas.",
+          "rationale": "Protocolos de roteamento (como OSPF, BGP) são responsáveis pelo encaminhamento de pacotes; SNMP é para gerenciamento.",
+          "isCorrect": false
+        }
+      ],
+      "hint": "Este protocolo é um padrão amplamente utilizado para coletar informações e configurar dispositivos de rede."
+    }
+  ]
+}
